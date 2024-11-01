@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 170px;
+}
+.frm1{
+    background-color: white;
+    border: 1px solid rgb(190, 185, 185) ;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    min-height: 400px;
+    margin-top: 50px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 250px;
+    margin: 3px 0;
+    padding: 8px;
+    border: 1px solid rgb(177, 173, 173);
+    border-radius: 3px;
+    font-size: 13px;
+}
+button{
+    width: 270px;
+    font-weight: bold;
+    color: white;
+    background-color: #70a4e9;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 17px;
+    margin-top: 20px;
+    border: 0px;
+
+
+}
+.line{
+    display: flex;
+    width: 270px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50px; */
+    gap: 10px;
+    padding-left: 40px;
+
+
+}
+.line1{
+    width: 170px;
+    border: 1px solid rgb(190, 189, 189);
+    height: 0px;
+
+}
+.line2{
+    width: 170px;
+    border: 1px solid rgb(189, 188, 188);
+    height: 0px;
+
+}
+.frm2{
+    width: 370px;
+    border: 1px solid rgb(197, 194, 194);
+    /* padding: 10px; */
+    text-align: center;
+    padding-top: 20px;
+    height: 40px;
+
+    
+}
+.si{
+    color: #4f44ee;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.face{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding-left: 73px;
+    height: 40px;
+}
+.face2{
+    padding-left: 3px;
+    color: #4d41f7;
+    text-decoration: none;
+}
+.fp{
+    color: rgb(24, 17, 59);
+    text-decoration: none;
+    font-size: 13px;
+}
+.or{
+    font-size: 12px;
+}
+.face1{
+    padding-top: 2.5px;
+}
+.dha{
+    font-size: 14.5px;
+}
+.frm3{
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+.imag{
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+.tags{
+    text-align: center;
+   justify-content: center;
+
+   justify-content: space-around;
+   margin-left: 10px;
+   
+}
+a{
+    color: rgb(0, 0, 0);
+    width: Hug (315px)px;
+    height: Hug (27px)px;
+    top: 48px;
+    left: 334px;
+    gap: 48px;
+    opacity: 0px;
+    
+    padding-left: 15px;
+    font-size: small;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+
